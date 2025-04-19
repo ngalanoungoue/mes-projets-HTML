@@ -1,0 +1,22 @@
+/* Mise en forme générale */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+}
+
+/* Titres */
+h2 {
+    color: #0052D4;
+    margin-top: 20px;
+}
+
+/* Liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

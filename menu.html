@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE D'ACCUEIL </title>
+    <style>
+        /* Styles de base */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        /* Barre de navigation */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+        
+            left: 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 12px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #008CBA;
+            border-radius: 5px;
+        }
+
+        /* En-tête */
+        header {
+            margin-top: 60px;
+            font-size: 28px;
+            padding: 20px;
+            background-color: #008CBA;
+            color: white;
+        }
+
+        /* Image animée */
+        .image-container {
+            margin: 20px;
+        }
+
+        .image-container img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.5s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Formulaire de contact */
+        .form-container {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .form-container input, .form-container textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .form-container button:hover {
+            background-color: #005f73;
+        }
+
+        /* Section */
+        section {
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu de navigation -->
+    <nav>
+        <ul>
+            <li><a href="TP1.html" target="_blank">Accueil de presentation</a></li>
+            <li><a href="GRID.HTML" target="_blank">À Propos de mon blog</a></li>
+            <li><a href="responsive.html" target="_blank">Plus d'information concernant mon GRID</a></li>
+        </ul>
+    </nav>
+
+    <!-- En-tête -->
+    <header id="accueil">
+        Bienvenue sur Mon Site Web 
+    </header>
+
+    <!-- Section À Propos -->
+    <section id="apropos">
+        <h1>À Propos</h1>
+        <p>Ce site resume tout ce qu'on a eu a faire durant notre formation en html et css .</p>
+        <div class="image-container">
+            <img src="microsoft-excel-dt - Copie.webp" alt="Exemple d'image">
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h1>Contactez-nous</h1>
+        <div class="form-container">
+            <form>
+                <input type="text" name="nom" placeholder="Votre Nom" required>
+                <input type="email" name="email" placeholder="Votre Email" required>
+                <textarea name="message" placeholder="Votre Message" rows="5" required></textarea>
+                <button type="submit" > <a href="https://www.youtube.com/watch?v=531VpoxIzXg"> Envoyer </a></button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

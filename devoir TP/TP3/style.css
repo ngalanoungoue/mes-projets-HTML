@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question p {
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    font-size: 16px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  
+  #resultat {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  /* Couleurs dynamiques du score */
+  .result-vert { color: green; }
+  .result-orange { color: orange; }
+  .result-rouge { color: red; }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    
+}
+
+.d1{
+    border: 2px solid black
+}

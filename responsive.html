@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resonsive.css">
+    
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            background-color: #d71111;
+            color: #333;
+        }
+        h1 {
+            color: #077ef4; 
+        }
+        h2 {
+            color: #2980b9; 
+        }
+        .flexbox-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .item {
+            background-color: #d89d9d;
+            border: 1px solid #915353;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            width: calc(45% - 20px); 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .item strong {
+            color: #e74c3c; 
+        }
+        a {
+            color: #3498db; 
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: darkolivegreen; 
+        }
+    </style>
+
+    <title>Responsive Design avec Flexbox</title>
+</head>
+
+<body>
+    <h1>Design Responsive avec Flexbox</h1>
+
+    <h2>Propriétés Principales</h2>
+    <div id="parent" class="flexbox-container">
+        <div class="item">
+            <strong>La Nature</strong><br>
+            La nature est un spectacle merveilleux. Les montagnes majestueuses, les rivières scintillantes et les forêts verdoyantes créent un environnement apaisant.
+        </div>
+        <div class="item">
+            <strong>L'Amitié</strong><br>
+            L'amitié est l'un des plus grands cadeaux de la vie. Elle se construit sur la confiance, le respect et la compréhension.
+        </div>
+        <div class="item">
+            <strong>La Lecture</strong><br>
+            La lecture est une porte ouverte vers d'autres mondes. Elle nourrit notre imagination et élargit nos horizons.
+        </div>
+        <div class="item">
+            <strong>La Technologie</strong><br>
+            La technologie a transformé notre façon de vivre. Elle facilite la communication et l'accès à l'information.
+        </div>
+    </div>
+
+    <h2>Propriétés Enfants</h2>
+    <div id="children" class="flexbox-container">
+        <div class="item">Élément 1</div>
+        <div class="item">Élément 2 <button type="button"><a href="index.html" target="_blank">Accéder à cette page</a></button></div>
+        <div class="item">
+            <strong>Le Voyage</strong><br>
+            Voyager est une expérience enrichissante. Chaque destination offre une nouvelle culture et des saveurs uniques.
+        </div>
+        <div class="item">
+            <strong>Le Bonheur</strong><br>
+            Le bonheur se trouve souvent dans les moments simples de la vie.
+        </div>
+    </div>
+</body>
+
+</html>

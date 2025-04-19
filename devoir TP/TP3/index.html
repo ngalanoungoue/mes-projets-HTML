@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QCM Développement Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>QCM : Développement Web</h1>
+    <form id="qcm-form">
+      <!-- Question 1 -->
+      <div class="question">
+        <p>1. Quelle balise est utilisée pour insérer une image ?</p>
+        <label><input type="radio" name="q1" value="a"> &lt;img&gt;</label>
+        <label><input type="radio" name="q1" value="b"> &lt;image&gt;</label>
+        <label><input type="radio" name="q1" value="c"> &lt;src&gt;</label>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question">
+        <p>2. Quelle propriété CSS permet de changer la couleur du texte ?</p>
+        <label><input type="radio" name="q2" value="a"> background-color</label>
+        <label><input type="radio" name="q2" value="b"> text-color</label>
+        <label><input type="radio" name="q2" value="c"> color</label>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question">
+        <p>3. Quel attribut permet de définir le lien dans une balise &lt;a&gt; ?</p>
+        <label><input type="radio" name="q3" value="a"> link</label>
+        <label><input type="radio" name="q3" value="b"> href</label>
+        <label><input type="radio" name="q3" value="c"> src</label>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question">
+        <p>4. Quelle propriété permet d’ajouter un espace intérieur dans un élément ?</p>
+        <label><input type="radio" name="q4" value="a"> margin</label>
+        <label><input type="radio" name="q4" value="b"> padding</label>
+        <label><input type="radio" name="q4" value="c"> border</label>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="question">
+        <p>5. Comment déclare-t-on une variable en JavaScript ?</p>
+        <label><input type="radio" name="q5" value="a"> let x = 10;</label>
+        <label><input type="radio" name="q5" value="b"> variable x = 10;</label>
+        <label><input type="radio" name="q5" value="c"> x == 10;</label>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="question">
+        <p>6. Quelle méthode permet d'ajouter un événement en JavaScript ?</p>
+        <label><input type="radio" name="q6" value="a"> addListener()</label>
+        <label><input type="radio" name="q6" value="b"> addEventListener()</label>
+        <label><input type="radio" name="q6" value="c"> onClick()</label>
+      </div>
+
+      <!-- Question 7 -->
+      <div class="question">
+        <p>7. La balise &lt;section&gt; est :</p>
+        <label><input type="radio" name="q7" value="a"> Non sémantique</label>
+        <label><input type="radio" name="q7" value="b"> Obsolète</label>
+        <label><input type="radio" name="q7" value="c"> Sémantique</label>
+      </div>
+
+      <!-- Question 8 -->
+      <div class="question">
+        <p>8. Quelle propriété CSS permet de centrer un élément avec flexbox ?</p>
+        <label><input type="radio" name="q8" value="a"> justify-content</label>
+        <label><input type="radio" name="q8" value="b"> align-items</label>
+        <label><input type="radio" name="q8" value="c"> flex-direction</label>
+      </div>
+
+      <!-- Question 9 -->
+      <div class="question">
+        <p>9. Que fait la méthode JavaScript alert() ?</p>
+        <label><input type="radio" name="q9" value="a"> Elle envoie un email</label>
+        <label><input type="radio" name="q9" value="b"> Elle affiche une boîte de dialogue</label>
+        <label><input type="radio" name="q9" value="c"> Elle ouvre un lien</label>
+      </div>
+
+      <!-- Question 10 -->
+      <div class="question">
+        <p>10. Quelle balise est utilisée pour les liens hypertextes ?</p>
+        <label><input type="radio" name="q10" value="a"> &lt;a&gt;</label>
+        <label><input type="radio" name="q10" value="b"> &lt;link&gt;</label>
+        <label><input type="radio" name="q10" value="c"> &lt;href&gt;</label>
+      </div>
+
+      <button type="submit">Soumettre</button>
+    </form>
+
+    <div id="resultat"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
